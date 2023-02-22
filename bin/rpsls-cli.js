@@ -38,7 +38,7 @@ if (args.rules || args.r) {
 
 let shot = args._[0];
 
-let result = rspls(shot);
+let result = rpsls(shot);
 
 //check for error
 if (result.error) {
