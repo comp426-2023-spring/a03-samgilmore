@@ -34,7 +34,7 @@ let shot = args._[0];
 let result = rps(shot);
 
 //check for error
-if (result.error) {
+if (result === 'error') {
     console.error(`${shot} is out of range.`);
 
     console.log('Usage: node-rps [SHOT]');

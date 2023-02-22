@@ -41,7 +41,7 @@ let shot = args._[0];
 let result = rpsls(shot);
 
 //check for error
-if (result.error) {
+if (result === 'error') {
     console.error(`${shot} is out of range.`);
 
     console.log('Usage: node-rpsls [SHOT]');
