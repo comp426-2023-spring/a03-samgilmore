@@ -54,18 +54,17 @@ if (result.error) {
     console.log('  node-rpsls rock   Return JSON with results for RPSLS played against a simulated opponent.');
     console.log('\t\t  e.g {"player":"rock","opponent":"Spock","result":"lose"}');
 
-    console.log(`Rules for the Lizard-Spock Espansion of Rock Paper Scissors:
-
-    - Scissors CUTS Paper
-    - Paper COVERS Rock
-    - Rock SMOOSHES Lizard
-    - Lizard POISONS Spock
-    - Spock SMASHES Scissors
-    - Scissors DECAPITATES Lizard
-    - Lizard EATS Paper
-    - Paper DISPROVES Spock
-    - Spock VAPORIZES Rock
-    - Rock CRUSHES Scissors`)
+    console.log('Rules for the Lizard-Spock Expansion of Rock Paper Scissors:\n');
+    console.log(' Scissors CUTS Paper');
+    console.log(' Paper COVERS Rock');
+    console.log(' Rock SMOOSHES Lizard');
+    console.log(' Lizard POISONS Spock');
+    console.log(' Spock SMASHES Scissors');
+    console.log(' Scissors DECAPITATES Lizard');
+    console.log(' Lizard EATS Paper');
+    console.log(' Paper DISPROVES Spock');
+    console.log(' Spock VAPORIZES Rock');
+    console.log(' Rock CRUSHES Scissors');
 
     process.exit(1);
 } else {
